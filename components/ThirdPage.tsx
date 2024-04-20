@@ -2,7 +2,7 @@
 import React from "react";
 function ThirdPage() {
   return (
-    <div className='w-full h-full mx-auto py-24   '>
+    <div className='w-full h-full mx-auto   '>
       <div className='flex gap-10 justify-center  items-center'>
         <div className='w-1/2 flex flex-col gap-10 p-10'>
           <h1 className='text-6xl '>Proficiency</h1>

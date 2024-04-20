@@ -1,3 +1,5 @@
+import FifthPage from "@/components/FifthPage";
+import FourthPage from "@/components/FourthPage";
 import FrontPage from "@/components/FrontPage";
 import SecondPage from "@/components/SecondPage";
 import ThirdPage from "@/components/ThirdPage";
@@ -9,6 +11,8 @@ export default function Home() {
        <FrontPage/>
        <SecondPage/>
        <ThirdPage/>
+       <FourthPage />
+        <FifthPage/>
       </div>
   );
 }
