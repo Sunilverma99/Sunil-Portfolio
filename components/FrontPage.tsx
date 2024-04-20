@@ -9,7 +9,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { LuFacebook } from "react-icons/lu";
 function FrontPage() {
   return (
-    <AuroraBackground className="h-full w-full">
+   // <AuroraBackground className="h-full w-full">
     <div className='w-full h-full mx-auto py-24   '>
       <div className='flex justify-center  items-center'>
           <div className='w-1/2 mx-auto'>
@@ -39,7 +39,7 @@ function FrontPage() {
           </div>
        </div>
     </div>
-    </AuroraBackground>
+    //</AuroraBackground>
   )
 }
 
