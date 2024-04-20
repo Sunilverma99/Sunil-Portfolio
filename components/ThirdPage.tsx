@@ -20,8 +20,8 @@ function ThirdPage() {
           </div>
 
         </div>
-          <div  >
-            <img className=' rounded-full bg-emerald-900' src="https://assets-global.website-files.com/61ebe5f773be1acd620f8208/61f2a3e9991e875b765b8f2a_23491-robot-process-automation.gif" alt="" />
+          <div className="w-1/2"  >
+            <img className=' rounded-xl bg-emerald-900 w-full h-full' src="https://assets-global.website-files.com/61ebe5f773be1acd620f8208/61fa29fc9bcfb5b44f022daa_mobile-app-developer.gif" alt="" />
           </div>
        </div>
     </div>
