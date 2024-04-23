@@ -18,7 +18,7 @@ function SixthPage() {
   return (
     <div className='w-full '>
       <div className='flex gap-4 text-center'>
-        <div className="w-1/2 m-4 my-10  ">
+        <div className="w-1/2 m-4 my-24  ">
         <div className=" max-w-2xl w-full  mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
       CONTACT WITH ME
@@ -31,16 +31,16 @@ function SixthPage() {
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Tyler" type="text" />
+            <Input id="firstname" placeholder="Sunil" type="text" />
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Last name</Label>
-            <Input id="lastname" placeholder="Durden" type="text" />
+            <Input id="lastname" placeholder="Verma" type="text" />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
+          <Input id="email" placeholder="sunil@gmail.com" type="email" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4 border-fuchsia-300">
         <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
@@ -60,10 +60,10 @@ function SixthPage() {
         </div>
         <div>
         <div className="flex flex-col gap-10 justify-center text-center  mx-auto">
-          <div className="flex justify-center items-center text-center my-10">
+          <div className="flex justify-center items-center text-center my-10 ">
           <img
-          src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp"
-            className="w-32 rounded-full shadow-lg"
+          src={"/Sunilverma.jpeg"}
+            className=" rounded-full shadow-lg w-52 h-52 object-cover"
             alt="Avatar" />
           </div>
         

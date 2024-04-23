@@ -12,9 +12,10 @@ import { FaPython } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BackgroundBeams } from "./ui/background-beams";
+import { InfiniteMovingCardsDemo } from './InfinniteScroll';
 function SecondPage() {
   return (
-    <div className='w-full h-full mx-auto py-24 bg-slate-900   '>
+    <div className='w-full mx-auto py-24 bg-slate-900   '>
     <div className='flex justify-center align-middle m-4    gap-4 items-center'>
         <div  className="w-1/2">
           <img className=' rounded-3xl' src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="" />
@@ -39,7 +40,10 @@ function SecondPage() {
           <p className='my-8 text-gray-500 font-sans text-xl' >✨ Develop highly interactive Front end / User Interfaces for your web and mobile applications</p>
           <p className='my-8 text-gray-500 font-sans text-xl'> ✨Integration of third party services such as Firebase/ AWS / Digital Ocean</p>
         </div>
+
      </div>
+     <h1 className='text-center text-white  text-3xl m-2'>Skills</h1>
+     <InfiniteMovingCardsDemo/>
       <BackgroundBeams  />
   </div>
   )
