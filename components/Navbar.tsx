@@ -19,17 +19,21 @@ function Navbar({ className }: { className?: string }) {
       className={cn(" fixed top-10 inset-x-0 w-full mx-auto z-50 ", className)}
     >
       <Menu setActive={setActive}>
-        <Link href={"skills"}>
-        <MenuItem setActive={setActive} active={active} item="Skills">
+        <Link href={"#skills"}>
+        <MenuItem setActive={setActive} active={active} 
+         item="Skills">
         </MenuItem></Link>
-        <MenuItem setActive={setActive} active={active} item="Work Experience">
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Open Source">
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Achivements">
-        </MenuItem>
+        <Link  href={"#projects"}>
+        <MenuItem setActive={setActive} active={active} item="Projects">
+        </MenuItem></Link>
+        <Link href={"#education"}>
+        <MenuItem setActive={setActive} active={active} item="Education">
+        </MenuItem></Link>
+        {/* <MenuItem setActive={setActive} active={active} item="Achivements">
+        </MenuItem> */}
+        <Link href={"#contact"}>
         <MenuItem setActive={setActive} active={active} item="Contact me">
-        </MenuItem>
+        </MenuItem></Link>
       </Menu>
     </div>
   );

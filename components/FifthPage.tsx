@@ -6,9 +6,9 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import Link from "next/link";
 function FifthPage() {
   return (
-    <div className="w-full bg-gray-800">
-      <h1 className="text-5xl text-center font-bold p-4 text-white">Projects</h1>
-      <div className="flex gap-16  flex-wrap justify-center">
+    <div id="projects" className="bg-gray-800 pt-20">
+      <h1 className="text-5xl text-center font-bold p-4  text-white">Projects</h1>
+      <div className="flex gap-10 flex-wrap justify-center">
       <CardContainer className="inter-var">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
@@ -54,7 +54,7 @@ function FifthPage() {
       </CardBody>
     </CardContainer>
 
-    <CardContainer className="inter-var">
+    <CardContainer className=" inter-var">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"

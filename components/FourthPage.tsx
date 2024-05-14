@@ -6,8 +6,8 @@ import { TracingBeam } from "./ui/tracing-beam";
  
 function FourthPage() {
   return (
-    <TracingBeam className="px-6 mt-4">
-    <div className="max-w-2xl mx-auto antialiased pt-4 relative">
+    <TracingBeam className="px-6">
+    <div id="education" className="max-w-2xl mx-auto antialiased  relative pt-20">
        <h1 className=" text-6xl m-4 ">Education</h1>
        <div className="flex gap-3 m-6">
           <div className="">
