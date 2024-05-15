@@ -29,7 +29,7 @@ function SixthPage() {
   };
 
   return (
-    <div id="contact" className='w-full pb-9'>
+    <div id="contact" className='w-full pb-4'>
       <div className="  lg:flex gap-4">
         <div className="lg:w-1/2 m-4 my-24">
           <div className="max-w-2xl w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
@@ -80,17 +80,17 @@ function SixthPage() {
 
             <div className="flex gap-3  items-center">
               <div className=" lg:w-16 lg:h-16 w-12 h-12 p-1 rounded-full  hover:bg-emerald-500"><MdAlternateEmail className=" lg:w-14  lg:h-14 w-10 h-10" /></div>
-              <h1 className="lg:text-2xl text-xl ">sv784333@gmail.com</h1>
+              <h1 className="lg:text-2xl text-xl font-extrabold ">sv784333@gmail.com</h1>
             </div>
             <div className="flex gap-3  items-center">
-              <div className="lg:w-16 lg:h-16 w-12 h-12 rounded-full p-3 hover:bg-emerald-500"><FaPhoneAlt className="lg:w-14  lg:h-14 w-8 h-8" /></div>
-              <h1 className="lg:text-2xl text-xl ">7027299219</h1>
+              <div className="lg:w-16 lg:h-16 w-12 h-12 rounded-full p-3 hover:bg-emerald-500"><FaPhoneAlt className="lg:w-10  lg:h-10 w-8 h-8" /></div>
+              <h1 className="lg:text-2xl text-xl font-extrabold ">7027299219</h1>
             </div>
             <div className="flex gap-3  items-center">
               <div className="lg:w-16 lg:h-16 w-12 h-12 rounded-full p-1 hover:bg-emerald-500"><IoLocationSharp className="lg:w-14  lg:h-14 w-10 h-10" /></div>
-              <h1 className="lg:text-2xl text-xl ">Fransi,Hisar,Haryana 125052</h1>
+              <h1 className="lg:text-2xl text-xl font-extrabold ">Fransi,Hisar,Haryana 125052</h1>
             </div>
-            <div className="flex lg:gap-16 gap-8">
+            <div className="flex lg:gap-12  pt-10 gap-8">
              <a href="https://github.com/Sunilverma99"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaGithub className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
             <a href="https://www.linkedin.com/in/sunil-verma-b7985024a"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaLinkedin className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
              <a href="https://twitter.com/SunilVerma74513"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaXTwitter className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>

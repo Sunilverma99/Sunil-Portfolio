@@ -25,9 +25,9 @@ function FourthPage() {
              </ul>
           </div>
        </div>
-       <div className="flex gap-3 m-6">
+       <div className="flex gap-3 m-14">
           <div className="">  
-            <img className="rounded-3xl w-32 h-24 md:w-36 md:h-28" src="https://content.jdmagicbox.com/comp/hissar/n2/9999p1662.1662.221020230023.c6n2/catalogue/government-senior-secondary-school-bass-hissar-schools-zuxzayrmwk.jpg" alt="" />
+            <img className="rounded-3xl w-32 h-24 md:w-36 md:h-32" src="https://content.jdmagicbox.com/comp/hissar/n2/9999p1662.1662.221020230023.c6n2/catalogue/government-senior-secondary-school-bass-hissar-schools-zuxzayrmwk.jpg" alt="" />
           </div>
           <div>
             <h1 className="md:text-2xl text-xl font-bold">Goverment Senior Secondary School,Hisar</h1>
