@@ -1,8 +1,9 @@
-
+"use client";
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { LuFacebook } from "react-icons/lu";
+import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 
 function FrontPage() {
@@ -26,20 +27,21 @@ function FrontPage() {
             libraries and frameworks.
           </p>
           <div className="m-6 mx-12 flex gap-4">
-            <div className="rounded-full w-12 h-12 bg-slate-600 text-white items-center justify-center p-2 hover:bg-black">
+            <a href="https://github.com/Sunilverma99">  <div className="rounded-full w-12 h-12 bg-slate-600 text-white items-center justify-center p-2 hover:bg-black">
               <FaGithub className="w-8 h-8" />
-            </div>
-            <div className="rounded-full w-12 h-12 bg-blue-400 items-center justify-center p-2 hover:bg-black hover:text-white">
+            </div></a>
+          <a href="https://www.linkedin.com/in/sunil-verma-b7985024a/"><div className="rounded-full w-12 h-12 bg-blue-400 items-center justify-center p-2 hover:bg-black hover:text-white">
               <FaLinkedinIn className="w-8 h-8" />
-            </div>
-            <div className="rounded-full w-12 h-12 bg-orange-500 text-white items-center justify-center p-2 hover:bg-black">
+            </div></a>
+            <a href="#contact"><div className="rounded-full w-12 h-12 bg-orange-500 text-white items-center justify-center p-2 hover:bg-black">
               <MdOutlineEmail className="w-8 h-8" />
-            </div>
-            <div className="rounded-full w-12 h-12 bg-blue-600 text-white items-center justify-center p-2 hover:bg-black">
-              <LuFacebook className="w-8 h-8" />
-            </div>
+            </div></a>
+            <a href="https://twitter.com/SunilVerma74513"><div className="rounded-full w-12 h-12 bg-gray-600 text-white items-center justify-center p-2 hover:bg-black">
+              <FaXTwitter  className="w-8 h-8" />
+            </div></a>
+            
           </div>
-          <div className="flex gap-4 p-8 py-2">
+          <div className="flex gap-4 px-10">
             <Link href="#contact">
             <button className="px-4 py-2 rounded-md border border-black bg-white text-neutral-700 text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200">
               Contact me

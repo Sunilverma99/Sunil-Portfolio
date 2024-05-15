@@ -7,7 +7,7 @@ import Link from "next/link";
 export function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center justify-center bg-slate-400">
-      <Navbar className="top-2" />
+      <Navbar className=" top-1" />
     </div>
   );
 }
@@ -17,7 +17,7 @@ function Navbar({ className }: { className?: string }) {
   return (
     <div
       className={cn(" fixed top-10 inset-x-0 w-full mx-auto z-50 ", className)}
-    >
+     >
       <Menu setActive={setActive}>
         <Link href={"#skills"}>
         <MenuItem setActive={setActive} active={active} 

@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -15,7 +16,7 @@ import { BackgroundBeams } from "./ui/background-beams";
 import { InfiniteMovingCardsDemo } from './InfinniteScroll';
 function SecondPage() {
   return (
-    <div id='skills' className='w-full mx-auto py-24 bg-slate-900   '>
+    <div id='skills' className='w-full mx-auto py-12 bg-slate-900   '>
     <div className='flex justify-center align-middle m-4    gap-4 items-center'>
         <div  className="w-1/2">
           <img className=' rounded-3xl' src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="" />
@@ -44,7 +45,9 @@ function SecondPage() {
      </div>
      <h1 className='text-center text-white  text-3xl m-2'>Skills</h1>
      <InfiniteMovingCardsDemo/>
-      {/* <BackgroundBeams  /> */}
+     <BackgroundBeams className=' h-4/6'  />
+    
+     
   </div>
   )
 }

@@ -6,7 +6,7 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import Link from "next/link";
 function FifthPage() {
   return (
-    <div id="projects" className="bg-gray-800 pt-20">
+    <div id="projects" className="bg-gray-800 pt-10">
       <h1 className="text-5xl text-center font-bold p-4  text-white">Projects</h1>
       <div className="flex gap-10 flex-wrap justify-center">
       <CardContainer className="inter-var">

@@ -11,6 +11,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
+import Link from "next/link";
 
 function SixthPage() {
   const [firstName, setFirstName] = useState('');
@@ -90,10 +91,11 @@ function SixthPage() {
               <h1 className="text-2xl ">Fransi,Hisar,Haryana -125052</h1>
             </div>
             <div className="flex gap-16">
-              <div className="w-16 h-16 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaGithub className="w-12 h-12" /></div>
-              <div className="w-16 h-16 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaLinkedin className="w-12 h-12" /></div>
-              <div className="w-16 h-16 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaXTwitter className="w-12 h-12" /></div>
-              <div className="w-16 h-16 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <IoLogoInstagram className="w-12 h-12" /></div>
+             <a href="https://github.com/Sunilverma99"><div className="w-16 h-16 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaGithub className="w-12 h-12" /></div></a>
+            <a href="https://www.linkedin.com/in/sunil-verma-b7985024a"><div className="w-16 h-16 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaLinkedin className="w-12 h-12" /></div></a>
+             <a href="https://twitter.com/SunilVerma74513"><div className="w-16 h-16 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <FaXTwitter className="w-12 h-12" /></div></a>
+              <a href=""><div className="w-16 h-16 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <IoLogoInstagram className="w-12 h-12" /></div></a>
+  
             </div>
           </div>
         </div>
