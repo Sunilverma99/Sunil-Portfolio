@@ -17,13 +17,13 @@ import { InfiniteMovingCardsDemo } from './InfinniteScroll';
 function SecondPage() {
   return (
     <div id='skills' className='w-full mx-auto py-12 bg-slate-900   '>
-    <div className='flex justify-center align-middle m-4    gap-4 items-center'>
-        <div  className="w-1/2">
+    <div className=' md:flex md:justify-center md:align-middle m-4  gap-4 items-center'>
+        <div  className="md:w-1/2">
           <img className=' rounded-3xl' src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="" />
         </div>
-        <div className='w-1/2 p-2'>
-          <h1 className=' text-6xl font-light text-white'>What I do</h1>
-          <p className=' text-gray-500 p-2 text-xl '>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</p>
+        <div className='md:w-1/2 p-2'>
+          <h1 className=' md:text-6xl text-3xl font-light text-white'>What I do</h1>
+          <p className=' text-gray-500 p-2 md:text-xl text-lg '>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</p>
           {/* <div className='flex gap-3  flex-wrap items-center text-center justify-center my-4'>
             <div ><FaHtml5 className='w-16 h-16 text-gray-500 hover:text-violet-500' /></div>
             <div ><FaCss3Alt  className='w-16 h-16 text-gray-500 hover:text-violet-500' /></div>
@@ -38,16 +38,14 @@ function SecondPage() {
             <div ><BiLogoTypescript className='w-16 h-16 text-gray-500 hover:text-violet-500' /></div>
             <div ><TbBrandNextjs className='w-16 h-16 text-gray-500 hover:text-violet-500' /></div>
           </div> */}
-          <p className='my-8 text-gray-500 font-sans text-xl' >✨ Develop highly interactive Front end / User Interfaces for your web and mobile applications</p>
-          <p className='my-8 text-gray-500 font-sans text-xl'> ✨Integration of third party services such as Firebase/ AWS / Digital Ocean</p>
+          <p className='my-8 text-gray-500 font-sans md:text-xl text-sm' >✨ Develop highly interactive Front end / User Interfaces for your web and mobile applications</p>
+          <p className='my-8 text-gray-500 font-sans md:text-xl text-sm'> ✨Integration of third party services such as Firebase/ AWS / Digital Ocean</p>
         </div>
 
      </div>
-     <h1 className='text-center text-white  text-3xl m-2'>Skills</h1>
+     <h1 className='text-center text-white  md:text-3xl  text-2xl m-2'>Skills</h1>
      <InfiniteMovingCardsDemo/>
      <BackgroundBeams className=' h-4/6'  />
-    
-     
   </div>
   )
 }

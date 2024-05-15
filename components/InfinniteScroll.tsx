@@ -61,8 +61,5 @@ const data = [
     image: "/skills/python-removebg-preview.png", 
     skill: "Python"  
   },
-  {
-    image: "/skills/nodesjs-removebg-preview.png", 
-    skill: "Node js"  
-  } 
+ 
 ]
