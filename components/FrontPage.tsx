@@ -13,16 +13,15 @@ function FrontPage() {
       <div className="md:flex md:justify-center md:items-center md:gap-8">
         <div className="lg:w-1/2">
           <div className="flex gap-2 md:flex-gap-4 px-4 pb-6">
-            <h1 className="text-3xl md:text-6xl font-mono">Hi all, Im Sunil</h1>
+            <h1 className="text-3xl md:text-6xl font-mono">Hi all, I&apos;m Sunil</h1>
             <img
               className="w-9 h-8 md:w-16 md:h-14 animate-handMovement lg:my-6"
               src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f44b.png"
               alt=""
-
             />
           </div>
           <p className="text-1xl md:text-2xl font-serif px-4">
-            A passionate Full Stack Software Developer  having an experience of building Web
+            A passionate Full Stack Software Developer having an experience of building Web
             and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool
             libraries and frameworks.
           </p>
