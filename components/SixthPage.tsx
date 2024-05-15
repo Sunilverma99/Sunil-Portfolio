@@ -22,7 +22,7 @@ function SixthPage() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const subject = encodeURIComponent('Portfolio Contact:Sunil verma');
+    const subject = encodeURIComponent("Portfolio Contact:Sunil verma");
     const body = encodeURIComponent(`Name: ${firstName} ${lastName}\nEmail: ${email}\nMessage: ${message}`);
   
     window.location.href = `mailto:sunilverma99706@gmail.com?subject=${subject}&body=${body}`;

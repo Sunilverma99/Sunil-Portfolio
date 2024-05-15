@@ -5,7 +5,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { LuFacebook } from "react-icons/lu";
 import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
-
+import Image from "next/image";
 function FrontPage() {
   const resumeUrl = "https://drive.google.com/file/d/1aWluGoppzU4qLS-uMjbvj7_VcJ-URYcc/view?usp=drivesdk"; // Replace with the URL of your resume PDF file
 
@@ -15,7 +15,7 @@ function FrontPage() {
         <div className="lg:w-1/2 ">
           <div className="flex gap-2 md:flex-gap-4 px-4 pb-6">
             <h1 className="text-3xl  md:text-6xl font-mono ">Hi all, I'm Sunil</h1>
-            <img
+            <Image
               className="w-9 h-8 md:w-16 md:h-14 animate-handMovement lg:my-6"
               src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f44b.png"
               alt=""
