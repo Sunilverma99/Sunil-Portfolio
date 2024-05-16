@@ -6,7 +6,7 @@ import { TracingBeam } from "./ui/tracing-beam";
  
 function FourthPage() {
   return (
-    <TracingBeam className="px-6  md:pb-4">
+    <TracingBeam className="px-6 md:pb-4">
     <div id="education" className=" mx-auto antialiased  relative pt-20">
        <h1 className=" md:text-6xl text-4xl m-4 ">Education</h1>
        <div className="flex gap-3 m-6">
@@ -19,22 +19,22 @@ function FourthPage() {
             <h3 className="md:text-xl  text-lg font-serif">Bachelor of Technology in Electronic and Communication </h3>
             <h4 className=" text-gray-500 text-xs md:text-sm">November 2022 - June 2026</h4>
             <p className=" text-sm md:text-base ">Ranked top 10% in the program. Took courses about Software Engineering, Web development, Operating Systems, ...</p>
-             <ul className=" list-disc px-10 text-sm md:text-base">
+             <ul className=" list-disc px-10 text-sm md:text-base hidden md:block">
               <li>Volunteer in Astral Club. </li>
               <li>Member of college kabaddi team.</li>
              </ul>
           </div>
        </div>
-       <div className="flex gap-3 m-14">
+       <div className="flex gap-3 md:pl-12 pl-6 ">
           <div className="">  
-            <img className="rounded-3xl w-32 h-24 md:w-36 md:h-32" src="https://content.jdmagicbox.com/comp/hissar/n2/9999p1662.1662.221020230023.c6n2/catalogue/government-senior-secondary-school-bass-hissar-schools-zuxzayrmwk.jpg" alt="" />
+            <img className="rounded-3xl w-32  md:w-40 md:h-36 " src="https://content.jdmagicbox.com/comp/hissar/n2/9999p1662.1662.221020230023.c6n2/catalogue/government-senior-secondary-school-bass-hissar-schools-zuxzayrmwk.jpg" alt="" />
           </div>
           <div>
             <h1 className="md:text-2xl text-xl font-bold">Goverment Senior Secondary School,Hisar</h1>
             <h3 className="md:text-xl text-lg font-serif"> 12th</h3>
             <h4 className=" text-gray-500 text-xs md:text-sm">May 2020 - March 2024</h4>
             <p className=" text-sm md:text-base">Ranked top 2% in the class. Particpate in cultural program and sports.</p>
-             <ul className=" list-disc text-sm md:text-base px-10">
+             <ul className=" list-disc text-sm md:text-base px-10 hidden md:block">
               <li>Captain of school kabaddi team. </li>
              </ul>
           </div>
