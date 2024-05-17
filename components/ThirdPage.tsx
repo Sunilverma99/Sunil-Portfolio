@@ -15,7 +15,7 @@ function ThirdPage() {
           <input type="range" min={0} max="100" defaultValue="80" className="range range-primary w-full" />
           </div>
           <div>
-            <h3 className='text-xl text-balck'>Programming</h3>
+            <h3 className='text-xl text-black'>Programming</h3>
           <input type="range" min={0} max="100" defaultValue="70" className="range range-primary w-full" />
           </div>
 
