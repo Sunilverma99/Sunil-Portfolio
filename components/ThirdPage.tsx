@@ -7,16 +7,16 @@ function ThirdPage() {
         <div className='md:w-1/2  flex flex-col gap-10 p-10'>
           <h1 className='text-6xl text-black '>Proficiency</h1>
           <div>
-            <h3 className='text-xl text-black'>Frontend</h3>
-          <input type="range" min={0} max="100" defaultValue="60" className="range range-primary w-full" />
-          </div>
+    <h3 className='text-xl text-black'>Frontend</h3>
+    <input type="range" min="0" max="100" value="60" disabled className="range range-primary w-full" />
+</div>
           <div>
             <h3 className='text-xl text-black'>Backend</h3>
-          <input type="range" min={0} max="100" defaultValue="80" className="range range-primary w-full" />
+          <input type="range" min={0} max="100" defaultValue="80" disabled className="range range-primary w-full" />
           </div>
           <div>
             <h3 className='text-xl text-black'>Programming</h3>
-          <input type="range" min={0} max="100" defaultValue="70" className="range range-primary w-full" />
+          <input type="range" min={0} max="100" defaultValue="70" disabled className="range range-primary w-full" />
           </div>
 
         </div>
