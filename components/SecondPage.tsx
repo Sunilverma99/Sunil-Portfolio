@@ -45,7 +45,7 @@ function SecondPage() {
      </div>
      <h1 className='text-center text-white  md:text-3xl  text-2xl m-2'>Skills</h1>
      <InfiniteMovingCardsDemo/>
-     <BackgroundBeams className=' h-4/6'  />
+     <BackgroundBeams className=' md:h-4/6 h-2/6  '  />
   </div>
   )
 }
