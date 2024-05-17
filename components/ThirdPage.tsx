@@ -5,17 +5,17 @@ function ThirdPage() {
     <div className=' mx-auto   '>
       <div className=' md:flex md:gap-10 md:justify-center  items-center'>
         <div className='md:w-1/2  flex flex-col gap-10 p-10'>
-          <h1 className='text-6xl '>Proficiency</h1>
+          <h1 className='text-6xl text-black '>Proficiency</h1>
           <div>
-            <h3 className='text-xl'>Frontend</h3>
+            <h3 className='text-xl text-black'>Frontend</h3>
           <input type="range" min={0} max="100" defaultValue="60" className="range range-primary w-full" />
           </div>
           <div>
-            <h3 className='text-xl'>Backend</h3>
+            <h3 className='text-xl text-black'>Backend</h3>
           <input type="range" min={0} max="100" defaultValue="80" className="range range-primary w-full" />
           </div>
           <div>
-            <h3 className='text-xl'>Programming</h3>
+            <h3 className='text-xl text-balck'>Programming</h3>
           <input type="range" min={0} max="100" defaultValue="70" className="range range-primary w-full" />
           </div>
 
