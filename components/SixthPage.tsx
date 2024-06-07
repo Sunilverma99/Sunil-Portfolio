@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { Label } from "./ui/label";
+import { Label } from "../components/ui/label";
 import { Input } from "./ui/input";
 import { cn } from "@/utils/cn";
 import { MdAlternateEmail } from "react-icons/md";
@@ -29,9 +29,9 @@ function SixthPage() {
   };
 
   return (
-    <div id="contact" className='w-full pb-4'>
+    <div id="contact" className='w-full pb-4 bg-slate-950'>
       <div className="  lg:flex gap-4">
-        <div className="lg:w-1/2 m-4 my-24">
+        <div className="lg:w-1/2 m-4 my-24 ">
           <div className="max-w-2xl w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
             <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
               CONTACT WITH ME
@@ -79,22 +79,22 @@ function SixthPage() {
             </div>
 
             <div className="flex gap-3  items-center">
-              <div className=" lg:w-16 lg:h-16 w-12 h-12 p-1 rounded-full text-black  hover:bg-emerald-500"><MdAlternateEmail className=" lg:w-14  lg:h-14 w-10 h-10" /></div>
-              <h1 className="lg:text-2xl text-xl font-extrabold text-black ">sv784333@gmail.com</h1>
+              <div className=" lg:w-16 lg:h-16 w-12 h-12 p-1 rounded-full text-white hover:bg-slate-400 hover:text-black"><MdAlternateEmail className=" lg:w-14  lg:h-14 w-10 h-10" /></div>
+              <h1 className="lg:text-2xl text-xl font-extrabold text-white ">sunilverma99706@gmail.com</h1>
             </div>
             <div className="flex gap-3  items-center">
-              <div className="lg:w-16 lg:h-16 w-12 h-12 rounded-full p-3 hover:bg-emerald-500 text-black"><FaPhoneAlt className="lg:w-10  lg:h-10 w-8 h-8" /></div>
-              <h1 className="lg:text-2xl text-xl font-extrabold  text-black">7027299219</h1>
+              <div className="lg:w-16 lg:h-16 w-12 h-12 rounded-full p-3 hover:bg-slate-400 hover:text-black text-white"><FaPhoneAlt className="lg:w-10  lg:h-10 w-8 h-8" /></div>
+              <h1 className="lg:text-2xl text-xl font-extrabold  text-white">7027299219</h1>
             </div>
             <div className="flex gap-3  items-center">
-              <div className="lg:w-16 lg:h-16 w-12 h-12 rounded-full p-1 hover:bg-emerald-500 text-black"><IoLocationSharp className="lg:w-14  lg:h-14 w-10 h-10" /></div>
-              <h1 className="lg:text-2xl text-xl font-extrabold text-black ">Fransi,Hisar,Haryana 125052</h1>
+              <div className="lg:w-16 lg:h-16 w-12 h-12 rounded-full p-1 hover:bg-slate-400 hover:text-black text-white"><IoLocationSharp className="lg:w-14  lg:h-14 w-10 h-10" /></div>
+              <h1 className="lg:text-2xl text-xl font-extrabold text-white ">Fransi,Hisar,Haryana 125052</h1>
             </div>
             <div className="flex lg:gap-12  pt-10 gap-8">
-             <a href="https://github.com/Sunilverma99"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-slate-400 rounded-full p-2 hover:bg-emerald-500 text-black"> <FaGithub className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
-            <a href="https://www.linkedin.com/in/sunil-verma-b7985024a"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-slate-400 rounded-full p-2 hover:bg-emerald-500 text-black"> <FaLinkedin className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
-             <a href="https://twitter.com/SunilVerma74513"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-slate-400 rounded-full p-2 hover:bg-emerald-500 text-black"> <FaXTwitter className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
-              <a href=""><div className="lg:w-16 lg:h-16 w-12 h-12 bg-slate-400 rounded-full p-2 hover:bg-emerald-500"> <IoLogoInstagram className="lg:w-12 lg:h-12 w-8 h-8 text-black" /></div></a>
+             <a href="https://github.com/Sunilverma99"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-white rounded-full p-2 hover:bg-slate-400 hover:text-black text-black"> <FaGithub className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
+            <a href="https://www.linkedin.com/in/sunil-verma-b7985024a"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-white rounded-full p-2 hover:bg-slate-400 hover:text-black text-black"> <FaLinkedin className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
+             <a href="https://twitter.com/SunilVerma74513"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-white rounded-full p-2 hover:bg-slate-400 hover:text-black text-black"> <FaXTwitter className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
+              <a href=""><div className="lg:w-16 lg:h-16 w-12 h-12 bg-white rounded-full p-2 hover:bg-slate-400 hover:text-black"> <IoLogoInstagram className="lg:w-12 lg:h-12 w-8 h-8 text-black" /></div></a>
   
             </div>
           </div>

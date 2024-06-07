@@ -16,7 +16,7 @@ import { BackgroundBeams } from "./ui/background-beams";
 import { InfiniteMovingCardsDemo } from './InfinniteScroll';
 function SecondPage() {
   return (
-    <div id='skills' className='w-full mx-auto py-12 bg-slate-900   '>
+    <div id='skills' className='w-full mx-auto py-12 bg-slate-950 '>
     <div className=' md:flex md:justify-center md:align-middle m-4  gap-4 items-center'>
         <div  className="md:w-1/2">
           <img className=' rounded-3xl' src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="" />

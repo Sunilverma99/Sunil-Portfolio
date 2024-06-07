@@ -8,11 +8,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-      <div className="h-full w-full ">
+      <div className="h-full w-full bg-slate-950 ">
+      
        <FrontPage />
        <SecondPage/>
        <ThirdPage/>
-       <FourthPage />
+       <FourthPage  />
         <FifthPage/>
         <SixthPage/>
       </div>
