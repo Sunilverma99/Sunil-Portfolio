@@ -29,9 +29,9 @@ function SixthPage() {
   };
 
   return (
-    <div id="contact" className='w-full pb-4 bg-slate-950'>
+    <div id="contact" className=' pb-4 bg-slate-950 m-0'>
       <div className="  lg:flex gap-4">
-        <div className="lg:w-1/2 m-4 my-24 ">
+        <div className="lg:w-1/2 my-24 ">
           <div className="max-w-2xl w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
             <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
               CONTACT WITH ME
@@ -80,7 +80,7 @@ function SixthPage() {
 
             <div className="flex gap-3  items-center">
               <div className=" lg:w-16 lg:h-16 w-12 h-12 p-1 rounded-full text-white hover:bg-slate-400 hover:text-black"><MdAlternateEmail className=" lg:w-14  lg:h-14 w-10 h-10" /></div>
-              <h1 className="lg:text-2xl text-xl font-extrabold text-white ">sunilverma99706@gmail.com</h1>
+              <h1 className="lg:text-2xl text-xl font-extrabold text-white ">sv0044976@gmail.com</h1>
             </div>
             <div className="flex gap-3  items-center">
               <div className="lg:w-16 lg:h-16 w-12 h-12 rounded-full p-3 hover:bg-slate-400 hover:text-black text-white"><FaPhoneAlt className="lg:w-10  lg:h-10 w-8 h-8" /></div>
@@ -95,7 +95,6 @@ function SixthPage() {
             <a href="https://www.linkedin.com/in/sunil-verma-b7985024a"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-white rounded-full p-2 hover:bg-slate-400 hover:text-black text-black"> <FaLinkedin className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
              <a href="https://twitter.com/SunilVerma74513"><div className="lg:w-16 lg:h-16 w-12 h-12 bg-white rounded-full p-2 hover:bg-slate-400 hover:text-black text-black"> <FaXTwitter className="lg:w-12 lg:h-12 w-8 h-8" /></div></a>
               <a href=""><div className="lg:w-16 lg:h-16 w-12 h-12 bg-white rounded-full p-2 hover:bg-slate-400 hover:text-black"> <IoLogoInstagram className="lg:w-12 lg:h-12 w-8 h-8 text-black" /></div></a>
-  
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ import { InfiniteMovingCardsDemo } from './InfinniteScroll';
 function SecondPage() {
   return (
     <div id='skills' className='w-full mx-auto py-12 bg-slate-950 '>
-    <div className=' md:flex md:justify-center md:align-middle m-4  gap-4 items-center'>
+    <div className=' md:flex md:justify-center md:align-middle  gap-4 items-center'>
         <div  className="md:w-1/2">
           <img className=' rounded-3xl' src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*yw0TnheAGN-LPneDaTlaxw.gif" alt="" />
         </div>
@@ -43,7 +43,7 @@ function SecondPage() {
         </div>
 
      </div>
-     <h1 className='text-center text-white  md:text-3xl  text-2xl m-2'>Skills</h1>
+     <h1 className='text-center text-white  md:text-3xl  text-2xl'>Skills</h1>
      <InfiniteMovingCardsDemo/>
      <BackgroundBeams className=' md:h-4/6 h-2/6  '  />
   </div>
