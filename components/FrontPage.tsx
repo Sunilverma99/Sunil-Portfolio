@@ -10,7 +10,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 function FrontPage() {
-  const resumeUrl = "https://drive.google.com/file/d/1hli91nJZrKP5admgfEnj17gMrTrXJcFV/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/1zYnegq_zY944NtS9qCUMi6VUyh8KwwUs/view?usp=sharing";
   const words = [ "Backend", "Frontend", "MERN"]
   const words2=["Contact","Hire","Message","Email"]
   return (
